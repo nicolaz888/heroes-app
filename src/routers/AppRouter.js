@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import { MarvelScreen } from "../components/marvel/MarvelScreen";
 import { DcScreen } from "../components/dc/DcScreen";
 import { LoginScreen } from "../components/login/LoginScreen";
@@ -7,7 +7,7 @@ import { Navbar } from "../components/ui/Navbar";
 
 export const AppRouter = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Navbar />
             <Routes>
                 <Route path="/" element={<MarvelScreen />} />
@@ -16,6 +16,6 @@ export const AppRouter = () => {
                 <Route path="/login" element={<LoginScreen />} />
                 <Route path="/search" element={<SearchScreen />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
