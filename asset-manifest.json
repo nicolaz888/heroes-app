@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nicolaz888/heroes-app.git/static/css/main.e6c13ad2.css",
-    "main.js": "/nicolaz888/heroes-app.git/static/js/main.1119e89c.js",
+    "main.js": "/nicolaz888/heroes-app.git/static/js/main.e036ed08.js",
     "index.html": "/nicolaz888/heroes-app.git/index.html",
     "main.e6c13ad2.css.map": "/nicolaz888/heroes-app.git/static/css/main.e6c13ad2.css.map",
-    "main.1119e89c.js.map": "/nicolaz888/heroes-app.git/static/js/main.1119e89c.js.map"
+    "main.e036ed08.js.map": "/nicolaz888/heroes-app.git/static/js/main.e036ed08.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.1119e89c.js"
+    "static/js/main.e036ed08.js"
   ]
 }
